@@ -1,0 +1,48 @@
+html, body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.expense-panel {
+    height: 50vh;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #cccccc;
+}
+
+.expense-panel-header {
+    margin: 0 auto;
+    width: 96%;
+    height: 40px;
+    align-items: center;
+    border-bottom: 0.5px solid #cccccc;
+}
+
+.header {
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Libre Barcode 128 Text', sans-serif;
+    font-size: 16pt;
+    height: 10vh;
+    width: 100%;
+    background-color: #8A09C1;
+    color: white;
+    box-shadow: 0 0 100px #bebebe;
+    margin-bottom: 50px;
+}
+
+.header * {
+    margin: 0 20px;
+}
+
+.flex {
+    display: flex;
+}
+
